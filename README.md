@@ -7,11 +7,7 @@
 $url = "https://github.com/thuannvn/url-validation-with-php";
 
 if (url_validate($url) == true){
-
 	echo("$url is a valid URL\n");
-
 } else {
-
 	echo("$url is not a valid URL\n");
-	
 }
